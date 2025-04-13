@@ -1,0 +1,14 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100dvh;
+  background-color: #f4f4f9;
+}
+
+.content {
+  padding-bottom: 50px;
+  width: clamp(360px, 80%, 1440px);
+  min-height: 100vh;
+}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  font-family: Inter;
+}
+
+.div-card {
+  display: grid;
+  justify-items: center;
+  gap: 1rem 1rem;
+  background-color: white;
+  padding: 24px;
+  border-radius: 10px;
+  min-height: 50vh;
+}
+
+@media (min-width: 768px) {
+  .div-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .div-card {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1550px) {
+  .div-card {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

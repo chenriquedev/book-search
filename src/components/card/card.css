@@ -1,0 +1,49 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90%;
+  gap: 0.7rem;
+  max-width: 400px;
+  min-height: 110px;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.4);
+  border: 1px solid #ddd;
+  background-color: white;
+
+  span {
+    font-family: Inter;
+  }
+
+  span:first-child {
+    font-size: 16px !important;
+    font-weight: 600;
+  }
+
+  span {
+    font-size: clamp(0.7rem, 4vw, 0.9rem);
+    overflow-wrap: break-word;
+  }
+}
+
+.icon {
+  flex-shrink: 0;
+}
+
+.url {
+  text-decoration: none;
+}
+
+.url:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.no-url {
+  user-select: none;
+}
+
+.no-url:hover {
+  cursor: default !important;
+}
