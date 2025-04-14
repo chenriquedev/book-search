@@ -1,6 +1,6 @@
 import { useCallback, useState } from "react";
-import { BookModel } from "../../../models/bookModel";
-import { bookService } from "../../../service/resources/bookService";
+import { BookModel } from "../../models/bookModel";
+import { bookService } from "../../service/resources/bookService";
 
 const { getBooks } = bookService;
 

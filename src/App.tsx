@@ -4,7 +4,7 @@ import "./app.css";
 import Container from "./components/layout/container/Container";
 import NavBar from "./components/layout/navBar/NavBar";
 import Card from "./components/card/Card";
-import useBookList from "./components/hooks/use-book-list/useBookList";
+import useBookList from "./hooks/use-book-list/useBookList";
 
 function App() {
   const [searchTerm, setSearchTerm] = useState<string>("");
